@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-left: 20vw;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            color: white;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+        }
+
+        /* navbar */
+        .navbar {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+        }
+
+        nav {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav ul {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(206, 45, 117);
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+
+        ul {
+            list-style-type: none;
+        }
+
+        /* logo */
+        .logo {
+            margin-top: 20px;
+            color: rgb(206, 45, 117);
+        }
+
+        
+
+
+        /*front page*/
+        .frontBg {
+           
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            height: 100vh;
+            /*---veiw port hieght----*/
+            margin: 0;
+            padding: 0;
+            backdrop-filter: blur(8px);
+        }
+
+        b {
+            position: relative;
+
+            font-size: 140px;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: rgb(57, 191, 33);
+        }
+
+        /*jumbotron timeline*/
+        #jumbotron {
+            text-align: center;
+        }
+
+        #jumbotron h4 {
+            color: white;
+        }
+
+        .container{
+            margin-top: 200px;
+        }
+        .box1{
+            margin-top: 200px;
+            height: auto;
+            width: 40%;
+            align-items: center;
+            color: white;
+        }
+        .box2{
+            margin-left: 600px;
+            margin-top: -380px;
+
+            
+        }
+        p1{
+            color: rgb(206, 45, 117);
+        }
+        .b1{
+            height: 50px;
+            width: 250px;
+            background-image: linear-gradient(rgb(186, 57, 165), rgb(235, 119, 208));
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 2px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="logo">
+            <h3>Listify</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <h2>Student List</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>John Doe</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Jane Smith</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Michael Johnson</td>
+                <td>C</td>
+            </tr>
+            <!-- Add more rows as needed -->
+            <tr>
+                <td>004</td>
+                <td>Alice Williams</td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td>005</td>
+                <td>Bob Brown</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>006</td>
+                <td>Susan Davis</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td>007</td>
+                <td>Chris Miller</td>
+                <td>B-</td>
+            </tr>
+            <tr>
+                <td>008</td>
+                <td>Megan Turner</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>009</td>
+                <td>David White</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>010</td>
+                <td>Linda Harris</td>
+                <td>B+</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+</html>
