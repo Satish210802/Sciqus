@@ -5,7 +5,8 @@
 
 Steps
 1)Download file
-2)Run on vs command 
+2)open folder on vs code
+3)run login.html file
 
 
 
